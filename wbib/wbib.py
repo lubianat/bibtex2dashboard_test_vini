@@ -257,15 +257,17 @@ def get_query_url_for_locations(readings):
 
 
   #defaultView:Map
-  SELECT ?organization ?organizationLabel ?geo ?count ?layer
+  SELECT ?organization ?organizationLabel  ?geo ?count ?layer ?sample_work  ?sample_workLabel
   WITH {
-    SELECT DISTINCT ?organization ?geo (COUNT(DISTINCT ?work) AS ?count) WHERE {
+    SELECT DISTINCT ?organization ?geo 
+    (COUNT(DISTINCT ?work) AS ?count) 
+    (SAMPLE(?work) as ?sample_work) WHERE {
       VALUES ?work """ +  readings + """.
           ?work wdt:P50 ?author .
       ?author ( wdt:P108 | wdt:P463 | wdt:P1416 ) / wdt:P361* ?organization . 
       ?organization wdt:P625 ?geo .
     }
-    GROUP BY ?organization ?geo ?count
+    GROUP BY ?organization ?geo ?count 
     ORDER BY DESC (?count)
     LIMIT 2000
   } AS %organizations
