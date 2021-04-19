@@ -40,7 +40,7 @@ SPARQL queries adapted from <a target="_blank" href="https://scholia.toolforge.o
   '''
 
   creator_statement = '''
- Dashboard  by <a target="_blank" href="https://www.wikidata.org/wiki/User:TiagoLubiana">TiagoLubiana</a>
+ Dashboard  by <a target="_blank" href="https://github.com/lubianat">lubianat</a>
   '''
 
 

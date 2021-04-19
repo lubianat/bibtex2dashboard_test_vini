@@ -40,7 +40,6 @@ for i in tqdm(bibtexFile.entries):
     time.sleep(0.3)
 
 formatted_readings = format_ids(list_of_qids)
-
 with open("index.html", "w") as f:
     html = render_dashboard(formatted_readings)
     f.write(html)
