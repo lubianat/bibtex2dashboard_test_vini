@@ -1,0 +1,48 @@
+Titles that were not found on Wikidata: 
+PROV v2.0.0: A Python library for W3C Provenance Data Model
+DfAnalyzer-Spark
+TinyDB v4.3.0: a lightweight document oriented database
+Using domain-specific data to enhance scientific workflow steering queries
+Modern Statistics for Modern Biology
+PROV-DM: The PROV Data Model
+A guide to NumPy
+DfA-lib-Python: uma biblioteca para extra\cc\~ao de dados cient\'ificos usando a DfAnalyzer
+pandas: a Foundational Python Library for Data Analysis and Statistics
+BioJulia
+Uma Estrat\'egia de Apoio \`a Ger\^encia de Dados de Proveni\^encia em Experimentos Cient\'ificos
+Bioinformatics software for genomic: a systematic review on GitHub
+A container-centric methodology for benchmarking workflow management systems
+Provenance in bioinformatics workflows.
+The Jupyter/IPython architecture: a unified view of computational research, from interactive exploration to communication and publication.
+Capturing and querying workflow runtime provenance with PROV: a practical approach
+Utilizing Provenance in Reusable Research Objects
+Towards supporting the life cycle of large scale scientific experiments
+DfAnalyzer: Runtime Dataflow Analysis of Scientific Applications using Provenance
+Data descriptor: Single cell genomes of Prochlorococcus, Synechococcus, and sympatric microbes from diverse marine environments
+FastTree 2 - Approximately maximum-likelihood trees for large alignments
+BLAST+: architecture and applications.
+Prodigal: prokaryotic gene recognition and translation initiation site identification.
+Reevaluating prokaryotic species
+Bypassing Cultivation To Identify Bacterial Species
+Implementing agglomerative hierarchic clustering algorithms for use in document retrieval
+A theory of objects
+PROV-Overview: An Overview of the PROV Family of Documents
+Why and Where: A Characterization of Data Provenance
+A new biology for a new century.
+Streamlining data-intensive biology with workflow systems
+The BioStars Handbook 2nd Edition
+Exploiting the Parallel Execution of Homology Workflow Alternatives in HPC Compute Clouds
+Discovering drug targets for neglected diseases using a pharmacophylogenomic cloud workflow
+Exploring molecular evolution reconstruction using a parallel cloud based scientific workflow
+Using rapid prototyping to choose a bioinformatics workflow management system
+An\'alise de hiperpar\^ametros no treinamento de redes de aprendizado profundo usando dados de proveni\^encia
+Recent advances in convolutional neural networks
+Análise de Hiperparâmetros em Aplicações de Aprendizado Profundo por meio de Dados de Proveniência
+Common Workflow Language, v1.0
+A block-sorting lossless data compression algorithm
+Scientific Workflows: Moving Across Paradigms
+Bridging the Educational Gap between Emerging and Established Scientific Computing Disciplines
+A standardized bacterial taxonomy based on genome phylogeny substantially revises the tree of life.
+The Reproducibility Crisis in Science
+Debugging Scientific Workflows with Provenance: Achievements and Lessons Learned
+Provenance analytics for workflow-based computational experiments: A survey

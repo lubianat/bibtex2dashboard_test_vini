@@ -8,7 +8,7 @@ import unicodedata
 def render_dashboard(readings):
 
   site_title = "Wikidata Bibtex"
-  site_subtitle = ''' Demonstration '''
+  site_subtitle = ''' Demonstration (test with Vini's bibtex)'''
 
   url1 = get_query_url_for_articles(readings)
   url1_legend = "Articles in the bibtex file"
@@ -31,8 +31,8 @@ def render_dashboard(readings):
             Creative Commons CC0</a> license.
   '''
   code_availability_statement = '''
-  Source code for the website available at <a target="_blank" href="https://github.com/lubianat/bibtex2dashboard">
-            https://github.com/lubianat/bibtex2dashboard </a>
+  Source code for the website available at <a target="_blank" href="https://github.com/lubianat/bibtex2dashboard_test_vini">
+            https://github.com/lubianat/bibtex2dashboard_test_vini </a>
   '''
 
   scholia_credit_statement = '''

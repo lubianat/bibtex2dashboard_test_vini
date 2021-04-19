@@ -29,15 +29,19 @@ bibtexFile= parser.parse_file(sys.argv[1])
 
 list_of_qids = []
 print("===== Querying Wikidata to get IDs =====")
-for i in tqdm(bibtexFile.entries):
-    title = bibtexFile.entries[i].fields["title"]
-    title = title.replace("{", "")
-    title = title.replace("}", "")
-    try:
-        list_of_qids.append(get_qid_for_title(title))
-    except:
-        tqdm.write(f"Failed for {title}")
-    time.sleep(0.3)
+with open("error_log.txt", "w") as f:
+    f.write("Titles that were not found on Wikidata: \n")
+    for i in tqdm(bibtexFile.entries):
+        title = bibtexFile.entries[i].fields["title"]
+        title = title.replace("{", "")
+        title = title.replace("}", "")
+        try:
+            list_of_qids.append(get_qid_for_title(title))
+        except:
+            tqdm.write(f"Failed for {title}")
+            f.write(f"{title}\n")
+        time.sleep(0.3)
+
 
 formatted_readings = format_ids(list_of_qids)
 with open("index.html", "w") as f:
